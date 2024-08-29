@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Escolhendo uma nave</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Um dia desses, você decidiu comprar um carro antigo pra restaura-lo, foi até a um revendedor de carros para escolher sua nave, chegando la se deparou com duas caranga:</p>
+            <button class="btn-proximo" data-proximo="1">Omega 4.1</button>
+            <button class="btn-proximo" data-proximo="2">Gol GTi</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa o projeto do omega 4.1, e segue em frente para turbina-lo.</p>
+            <button class="btn-proximo" data-proximo="3">Seguir em frente e turbina-lo</button>
+            <button class="btn-proximo" data-proximo="4">Desistir do projeto</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Com o Gol GTI em mãos, esta na hora de trocar a pintura, ja que a atual esta muito desgastada.</p>
+            <button class="btn-proximo" data-proximo="5">Pintura Prata</button>
+            <button class="btn-proximo" data-proximo="6">Pintura Preto</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Pesquisando você encontrou uma loja que vende turbos, então decide ir até la para fazer sua compra.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para loja</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem voltando para casa e desitindo da aventura">
+            <p>você decidiu desistir do projetinho, e agora nunca sabera o quão feliz voce seria com um omega 4.1 6 Cilindro na sua garagem</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Voce decidiu pintar o GTi de prata, agora quer colocar um turbo.</p>
+            <button class="btn-proximo" data-proximo="7">Ir colocar o turbo</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Oh não, voce viu o projeto e nao gostou dele preto.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e escolher prata</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Na loja, voce se depara com 2 tipos de turbos, o Biturbo e o Twin turbo.</p>
+            <button class="btn-proximo" data-proximo="9">Biturbo</button>
+            <button class="btn-proximo" data-proximo="10">Twin Turbo</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Agora seu GTi esta prata, você fez uma otima escolha, agora o proximo passo é colocar o turbo.</p>
+            <button class="btn-proximo" data-proximo="7">Ir comprar o turbo</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você fez a escolha certa, biturbo são 2 turbos pequenos um grudado no outro, facilitando para ser colocado em motores como o deste carro.</p>
+            <button class="btn-proximo" data-proximo="11">Montar o Biturbo</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Twin turbo são 2 turbos que ficam cada um de um lado da gaiola, e nao temos espaço sulficiente ja que o nosso motor ocupa um grande espaço.</p>
+            <button class="btn-proximo" data-proximo="12">Voltar e escolher Biturbo</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cc.png" alt="Nave pronta">
+            <p>Pronto, sua nave turbo esta feito, agora o resto é com você, tenho certeza que com esse carro voce alcança a marca dos 200km/h na Presid. Roosevelt.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Biturbo colocado com sucesso, agora essa nave da benga em geral em Dracena city, boa aventura paricero(a).</p>
+            <button class="btn-proximo" data-proximo="11">terminar projeto.</button>
+        </div>
+    </main>
+    <script src="script.js"></script> 
+</body>
+</html>
